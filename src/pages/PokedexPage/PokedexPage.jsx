@@ -38,11 +38,15 @@ const Pokedex = () => {
         <br />
         <br />
 
-        <ContainerScroll>
-          <Cards>
-            <Cards>{mapPokemons}</Cards>
-          </Cards>
-        </ContainerScroll>
+        {bolsa.length < 1 ? (
+          <h3> Capiture alguns pokemons </h3>
+        ) : (
+          <ContainerScroll>
+            <Cards>
+              <Cards>{mapPokemons}</Cards>
+            </Cards>
+          </ContainerScroll>
+        )}
       </ContainerTela>
       <Voltar onClick={() => goToVoltar(navigate)}></Voltar>
     </>
