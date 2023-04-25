@@ -7,12 +7,10 @@ export const Cards = styled.div`
   gap: 25px;
 
   @media (max-width: 900px) {
-    margin-left: 60px;
     margin-top: 70px;
   }
 
   @media (max-width: 600px) {
-    margin-left: 60px;
     margin-top: 5px;
   }
 `;

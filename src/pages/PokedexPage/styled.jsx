@@ -11,6 +11,12 @@ export const ContainerTela = styled.div`
   filter: drop-shadow(10px 10px 10px #222);
   background-repeat: no-repeat;
 
+  h3 {
+    color: #c5baba;
+    text-align: center;
+    margin: 50px;
+  }
+
   margin: 7% 1% 0 10%;
 
   @media (max-width: 600px) {
@@ -26,6 +32,44 @@ export const ContainerTela = styled.div`
 
   @media (max-width: 900px) {
     height: 55vh;
+  }
+`;
+
+export const TituloError = styled.div`
+  text-align: center;
+
+  h1 {
+    font-size: 200px;
+    color: #c5baba;
+    align-items: center;
+
+    margin-top: 50px;
+  }
+  img {
+    width: 150px;
+  }
+  h2 {
+    color: #c5baba;
+  }
+  h3 {
+  }
+  button {
+    padding: 8px 20px;
+    background-color: #aa3030;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: 500;
+  }
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 40px;
+      margin-bottom: 2 0px;
+    }
+    img {
+      width: 30px;
+    }
   }
 `;
 
