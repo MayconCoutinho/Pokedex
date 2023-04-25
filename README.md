@@ -9,7 +9,7 @@
 
 
 <p align="center">
-  <b> Uma pokedex do anime pokemon</b></br>
+  <b> Pokedex do anime pokemon</b></br>
   <sub>  Projeto semelhante a pokedex de do anime com desiner semelhante, projeto para fins de estudos e praticar conceitos.
   <sub>
 </p>
